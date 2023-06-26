@@ -87,3 +87,56 @@ header{
     display: block;
    
 }
+
+/* About us section */
+
+.primary-heading{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-us{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 447px;
+    text-align: center;
+}
+
+.about-us p{
+    width: 905px;
+    align-items: center;
+    text-align: center;
+    line-height: 46px;
+}
+/* pricing section */
+.pricing-section{
+    height: 945px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.github{
+    width: 360px;
+    height: 497px;
+    background-image: url(../img/github.png);
+   
+}
+.school{
+    width: 360px;
+    height: 678px;
+    background-image: url(../img/school.png);
+}
+.ecommerce{
+    width: 360px;
+    height: 678px;
+    background-image: url(../img/ecommerce.png);  
+}
