@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+}
+.marginRL{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.marginL{
+    margin-left: 100px;
+}
+.marginR{
+    margin-right: 100px;
+}
+.marginT{
+    margin-top: 5px;
+}
+#header{
+    height: 105px;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    align-items: center;
+ }
+
+ nav li{
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+ }
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4f8c41;
+    letter-spacing: 2.5px;
+    
+ }
+
+ /* Start of hero section */
+ .hero{
+    background-image:linear-gradient(
+        rgba(6, 6, 6, 0.3),
+        rgba(6, 6, 6, 0.3)),url(../img/heroimg.png);
+    height: 573px;
+    position: relative;
+    text-align: center;
+ }
+ .hero-content{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+ align-items: center;
+    text-transform: uppercase;
+    
+ }
+.heading-primary{
+    display: block;
+    text-align: center;
+}
+.heading-primary-sub{
+    display: block;
+   
+}
