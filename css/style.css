@@ -31,6 +31,7 @@ header{
     font-family: 'Oswald', sans-serif;
 }
  nav{
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     width: 650px;
@@ -154,9 +155,7 @@ header{
 
 
 }
-.contact-info{
-   
-}
+
 .contact-info span{
     font-size: 14px;
     font-weight: 700;
@@ -217,4 +216,29 @@ header{
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
+}
+.btn-all{
+    font-family: 'Montserrat', sans-serif;
+    height: 60px;
+    width: 195px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+.btn-blue{
+    background-color: #2db6d8;
+
+}
+.footer-container{
+    text-align: center;
+    padding:20px;
+    font-size: 12px;
+    color: white;
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    background-color: #4f8c41;
 }
